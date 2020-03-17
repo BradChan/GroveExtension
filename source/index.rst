@@ -15,6 +15,7 @@ Welcome to GroveExtension's documentation!
     :numbered:
 
     hello/helloworld
+    hello/helloworld
 
 
 
