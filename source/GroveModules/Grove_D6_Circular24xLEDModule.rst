@@ -135,7 +135,7 @@ Scrathc编程控制环形LED阵列模块的积木块
 第1个参数，指定连接环形LED阵列模块的插座位置；
 第2个参数，指定向右缩进的步数，有效值：1~23。
 
-6. 让环形LED阵列模块上亮度图案向左缩进若干步
+8. 让环形LED阵列模块上亮度图案向左缩进若干步
 
 .. image:: ../_static/images/GroveModules/Grove_D6_Circular24xLEDModule/Scratch_8.png
     :align: center 
