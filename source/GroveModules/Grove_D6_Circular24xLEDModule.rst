@@ -21,6 +21,7 @@ LED呈环形排列，相当于手表上小时刻度的每隔半小时一颗。�
 环形LED阵列模块的技术参数
 ======================
 
+环形LED阵列模块的关键技术参数如下表：
 
 ==========  ====================================
 LED颜色      绿、红、蓝三色间隔排列
@@ -356,14 +357,14 @@ Scratch编程环境。这个在线版Scratch编程环境不仅完全兼容MIT版
 悉的Scratch图形化编程语言进行编程来控制计算机硬件，与计算机硬件交互。譬如，我们可以用Scratch编程控制环形LED阵列模块产生流光溢彩的效果。
 
 首先，我们看看Scratch编程环境中的环形LED阵列模块的积木块位置。在Scratch编程环境的角色选择区，点击“硬件”标签，然后点击“添加硬件”标签，
-在打开的硬件选择窗口中选择 `BlueBox4/蓝盒4`_ 。这一步操作类似于“添加角色”。接着，打开“显示器“积木抽屉，滚动鼠标滑轮，
+在打开的硬件选择窗口中选择 `BlueBox4(蓝盒4)`_ 。这一步操作类似于“添加角色”。接着，打开“显示器“积木抽屉，滚动鼠标滑轮，
 你将会看到”环形LED (x24)“类，其中包含有8种不同功能的积木块，如前所述。
 
 .. image:: ../_static/images/GroveModules/Grove_D6_Circular24xLEDModule/Scratch_0.jpg
     :align: center
 
 然后，我们来看一个简单的环形LED阵列模块应用示例，让几颗亮度不同的LED旋转起来。
-编程之前，我们首先连接好电路：用专用4芯线将环形LED阵列模块与 `BlueBox4/蓝盒4`_ 主控制器的(P2和P3)插座连接；然后使用USB数据线
+编程之前，我们首先连接好电路：用专用4芯线将环形LED阵列模块与 `BlueBox4(蓝盒4)`_ 主控制器的(P2和P3)插座连接；然后使用USB数据线
 将主控制器与编程的电脑连接。
 
 .. image:: ../_static/images/GroveModules/Grove_D6_Circular24xLEDModule/IMG_2540.JPG
@@ -374,8 +375,9 @@ Scratch编程环境。这个在线版Scratch编程环境不仅完全兼容MIT版
 .. image:: ../_static/images/GroveModules/Grove_D6_Circular24xLEDModule/Scratch_Ex04.jpg
     :align: center
 
-当你把本例程序编写完毕后，按上图的数字指定的步骤，将本示例程序下载到 `BlueBox4/蓝盒4`_ 主控制器。动手试一试吧！
+当你把本例程序编写完毕后，按上图的数字指定的步骤，将本示例程序下载到 `BlueBox4(蓝盒4)`_ 主控制器。动手试一试吧！
 
+.. _Arduino IDE 1.8x: www.arduino.cc
 .. _易造云平台: https://www.ezaoyun.com/
 .. _Scratch: https://www.ezaoyun.com:6363/
 .. _BlueBox4(蓝盒4): http://www.hibottoy.com/blueBox.html
