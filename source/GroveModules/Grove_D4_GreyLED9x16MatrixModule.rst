@@ -6,22 +6,22 @@ LED灰度阵列显示器模块
 
 我们现在介绍一种256级灰度的9x16点阵LED阵列，不仅能滚动显示文本字符和数字，还支持画图，显示256级灰度的图片！
 
-1. 波浪翻滚
+*1. 波浪翻滚*
 
 .. image:: ../_static/images/GroveModules/Grove_D4_GreyLED9x16MatrixModule/IMG_2551.gif
     :align: center 
 
-2. 模拟地上鞭炮爆炸效果
+*2. 模拟地上鞭炮爆炸效果*
 
 .. image:: ../_static/images/GroveModules/Grove_D4_GreyLED9x16MatrixModule/IMG_2552.gif
     :align: center 
 
-3. 绘制方形图案
+*3. 绘制方形图案*
 
 .. image:: ../_static/images/GroveModules/Grove_D4_GreyLED9x16MatrixModule/IMG_2553.gif
     :align: center 
 
-4. 滚动显示字符和数字
+*4. 滚动显示字符和数字*
 
 .. image:: ../_static/images/GroveModules/Grove_D4_GreyLED9x16MatrixModule/IMG_2554.gif
     :align: center 
@@ -77,26 +77,19 @@ LED灰度阵列显示器模块的用法
 Arduino编程LED灰度阵列显示器模块的(C/C++)API
 ==========================================
 
-1. LED灰度阵列显示器模块的构造器
-
-.. code-block::
+*1. LED灰度阵列显示器模块的构造器*
 
     LED9x16Matrix(uint8_t x=16, uint8_t y=9);
 
 参数1: 指定该显示器的列数，默认为16；
 参数2: 指定该显示器的行数，默认为9。
 
- 用法示例
-
- .. code-block::
-    :linenos:
+用法示例
 
     LED9x16Matrix  ledscr = LED9x16Matrix();
 
 
-2. 初始化LED灰度阵列显示器模块
-
-.. code-block::
+*2. 初始化LED灰度阵列显示器模块*
 
     void begin(uint8_t addr=0x74)
 
@@ -105,24 +98,16 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 返回值: none。
 
 
- 用法示例1(使用默认的从地址)
-
- .. code-block::
-    :linenos:
+用法示例1(使用默认的从地址)
 
     ledscr.begin();  // 使用默认的从地址：0x74
 
 
- 用法示例2(使用指定的从地址)
-
- .. code-block::
-    :linenos:
+用法示例2(使用指定的从地址)
 
     ledscr.begin(0x77);  // 使用指定的从地址：0x77 (请注意，使用这个地址之前，请按PCB上提示用烙铁修改配置)
 
-3. 清屏
-
-.. code-block::
+*3. 清屏*
 
     void clear(void)
 
@@ -130,9 +115,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数: none；
 返回值: none。
 
-4. 旋转显示方向
-
-.. code-block::
+*4. 旋转显示方向*
 
     void setRotation(uint8_t r)
 
@@ -140,9 +123,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数1: 指定显示方向，有效值：0~3。对于本模块，0和2是有效的；
 返回值: none。
 
-5. 绘制像素点
-
-.. code-block::
+*5. 绘制像素点*
 
     void drawPixel(int16_t x, int16_t y, uint16_t color)
 
@@ -152,7 +133,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数3: 指定像素点的灰度，有效值：0~255；
 返回值: none。
 
- 用法示例(模拟夜空中星星)
+用法示例(模拟夜空中星星)
 
 .. code-block::
     :linenos:
@@ -186,9 +167,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
     屏幕上显示着的LED和灭的LED是否保持平衡？只是位置变化。如果我们能使用某种传感器测量屏幕显示亮度，
     你将会发现亮度几乎保持不变。
 
-6. 绘制直线
-
-.. code-block::
+*6. 绘制直线*
 
     void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color)
 
@@ -200,9 +179,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数5: 指定像素点的灰度，有效值：0~255；
 返回值: none。
 
-7. 绘制水平直线
-
-.. code-block::
+*7. 绘制水平直线*
 
     void drawFastHLine(int16_t x, int16_t y, int16_t w, uint16_t color)
 
@@ -213,9 +190,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数4: 指定像素点的灰度，有效值：0~255；
 返回值: none。
 
-8. 绘制竖直线
-
-.. code-block::
+*8. 绘制竖直线*
 
     void drawFastVLine(int16_t x, int16_t y, int16_t h, uint16_t color)
 
@@ -227,9 +202,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 返回值: none。
 
 
-9. 绘制矩形(边线)
-
-.. code-block::
+*9. 绘制矩形(边线)*
 
     void drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color)
 
@@ -241,9 +214,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数5: 指定像素点的灰度，有效值：0~255；
 返回值: none。
 
-10. 绘制填充矩形(含边线)
-
-.. code-block::
+*10. 绘制填充矩形(含边线)*
 
     void fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color)
 
@@ -255,9 +226,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数5: 指定像素点的灰度，有效值：0~255；
 返回值: none。
 
-11. 绘制圆角矩形(边线)
-
-.. code-block::
+*11. 绘制圆角矩形(边线)*
 
     void drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color)
 
@@ -270,9 +239,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数6: 指定像素点的灰度，有效值：0~255；
 返回值: none。
 
-12. 绘制填充的圆角矩形(含边线)
-
-.. code-block::
+*12. 绘制填充的圆角矩形(含边线)*
 
     void fillRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color)
 
@@ -286,9 +253,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 返回值: none。
 
 
-13. 绘制圆(边线)
-
-.. code-block::
+*13. 绘制圆(边线)*
 
     void drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color)
 
@@ -299,9 +264,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数4: 指定像素点的灰度，有效值：0~255；
 返回值: none。
 
-14. 绘制填充圆(含边线)
-
-.. code-block::
+*14. 绘制填充圆(含边线)*
 
     void fillCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color)
 
@@ -312,9 +275,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数4: 指定像素点的灰度，有效值：0~255；
 返回值: none。
 
-15. 绘制三角形
-
-.. code-block::
+*15. 绘制三角形*
 
     void drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color)
 
@@ -328,9 +289,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数7: 指定像素点的灰度，有效值：0~255；
 返回值: none。
 
-16. 绘制填充的三角形
-
-.. code-block::
+*16. 绘制填充的三角形*
 
     void fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color)
 
@@ -344,9 +303,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数7: 指定像素点的灰度，有效值：0~255；
 返回值: none。
 
-17. 绘制位图图片
-
-.. code-block::
+*17. 绘制位图图片*
 
     void drawBitmap(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w, int16_t h, uint16_t color)
 
@@ -359,9 +316,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数6: 指定像素点的灰度，有效值：0~255；
 返回值: none。
 
-18. 显示西文字符串
-
-.. code-block::
+*18. 显示西文字符串*
 
     // 使用 String 类型传入字符串
     void showText(String txt, uint8_t textBrightness=20, bool waitingdone=true)
@@ -375,9 +330,7 @@ Arduino编程LED灰度阵列显示器模块的(C/C++)API
 参数4: 指定是否滚动显示，默认为滚动显示；
 返回值: none。
 
-19. 显示数值
-
-.. code-block::
+*19. 显示数值*
 
     void showNumber( number, uint8_t textBrightness=20, bool waitingdone=true)
 
@@ -420,7 +373,7 @@ https://www.ezaoyun.com:8888/hardware/bluebox4/package_bluebox4_index.json
 或许你在想，使用LED灰度阵列显示器模块，为啥要安装 `BlueBox4(蓝盒4)`_ 的BSP?
 这个BSP包含有LED灰度阵列显示器模块的C++库！当你安装好 `BlueBox4(蓝盒4)`_ 的BSP之后，就可以直接使用LED灰度阵列显示器模块了。
 
- 应用示例2:
+**应用示例:**
 
 这个示例也是LED灰度阵列显示器模块的Arduino库自带的，按下图所述过程打开该示例。
 
