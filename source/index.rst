@@ -1,6 +1,5 @@
 .. Grove Extension Modules documentation master file
 
-.. _topics-index:
 
 ========================================================
 欢迎使用Grove接口扩展模块的帮助文档! from HiiBot Team
