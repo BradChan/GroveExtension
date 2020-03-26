@@ -150,7 +150,7 @@ https://www.ezaoyun.com:8888/hardware/bluebox4/package_bluebox4_index.json
 
 下载完毕后，请打开Arduino IDE的串口监视器，你将会看到如下图的信息
 
-.. image:: ../_static/images/GroveModules/Grove_S16_UltrasonicDistanceMeasuringModule/UltrasonicDistanceModule_1.jpg
+.. image:: ../_static/images/GroveModules/Grove_S16_UltrasonicDistanceMeasuringModule/UltrasonicDistanceModule_6.jpg
     :align: center
 
 试一试改变传感器与障碍物之间的距离，观察Arduino IDE的串口监视器给出的信息。
