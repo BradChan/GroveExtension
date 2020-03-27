@@ -247,9 +247,6 @@ https://www.ezaoyun.com:8888/hardware/bluebox4/package_bluebox4_index.json
 
 该示例程序的源码如下：
 
-.. code-block::
-    :linenos:
-
     #include <PWM_ESP.h>
     #include <Button_ESP.h>
     uint8_t ledPin = P2, btnPin = P3; // (P2, P3)
@@ -262,6 +259,7 @@ https://www.ezaoyun.com:8888/hardware/bluebox4/package_bluebox4_index.json
         pinMode(ledPin, OUTPUT);
         pwmWrite(ledPin, ledBrightness);
     }
+
     void loop() {
         btn.read(); // this sentance must be located into main loop
         if ( btn.isPressed() ) {
