@@ -39,30 +39,7 @@
     GroveModules/Grove_D5_4Digit7SegmentModule
     GroveModules/Grove_D6_Circular24xLEDModule
 
-    GroveModules/Grove_S1_AngleSensor_LEDModule
-    GroveModules/Grove_S2_TouchSensor_1chModule
-    GroveModules/Grove_S3_MagneticApproachModule
-    GroveModules/Grove_S4_MercoidSwitchModule
-    GroveModules/Grove_S5_TiltSensorModule
-    GroveModules/Grove_S6_FireSensorModule
-    GroveModules/Grove_S7_WaterSensorModule
-    GroveModules/Grove_S8_SoilMoistureSensorModule
-    GroveModules/Grove_S9_TemperatureSwitchModule
-    GroveModules/Grove_S10_LightnessSwitchModule
-    GroveModules/Grove_S11_InfraredLineFinderModule
-    GroveModules/Grove_S12_HallSensorModule
-    GroveModules/Grove_S13_LightnessSensorModule
-    GroveModules/Grove_S14_LoundnessSensorModule
-    GroveModules/Grove_S15_InfraredDistanceMeasuringModule
-    GroveModules/Grove_S16_UltrasonicDistanceMeasuringModule
-    GroveModules/Grove_S17_DigitalInfraredTemperatureSensorModule
-    GroveModules/Grove_S18_DigitalTemperatureHumiditySensorModule
-    GroveModules/Grove_S19_DigitalLightnessSensorModule
-    GroveModules/Grove_S20_DigitalGestureSensorModule
-    GroveModules/Grove_S21_9DoFMotionSensorModule
-    GroveModules/Grove_S22_DigitalColorSensorModule
-    GroveModules/Grove_S23_12ChTouchSensorModule
-    GroveModules/Grove_S24_12Bitsx8ChADCModule
+
 
    
 
