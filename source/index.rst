@@ -33,6 +33,7 @@
     GroveModules/Grove_A17_I2C_16xServoModule
 
     GroveModules/Grove_D1_LEDx10BarModule
+    GroveModules/Grove_D2_LED6x7MatrixModule
 
 
 
