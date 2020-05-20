@@ -91,8 +91,9 @@ Scrathc编程彩灯模块的积木块
 
 Scratch积木块1: 调节彩灯模块整体亮度
 
-.. image:: ../_static/images/GroveModules/Grove_A9_Circular11xRGBModule/ScratchBlocks_01.png
-    :align: center 
+.. .. image:: ../_static/images/GroveModules/Grove_A9_Circular11xRGBModule/ScratchBlocks_01.png
+..     :align: center 
+
 
 
 
