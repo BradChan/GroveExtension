@@ -32,11 +32,9 @@
     GroveModules/Grove_A16_I2C_2MotorDriverModule
     GroveModules/Grove_A17_I2C_16xServoModule
     
-
+    GroveModules/Grove_D1_LEDx10BarModule
     GroveModules/Grove_D2_LED6x7MatrixModule
     GroveModules/Grove_D3_OLED128x64DotsModule
-    GroveModules/Grove_D4_GreyLED9x16MatrixModule
-    GroveModules/Grove_D5_4Digit7SegmentModule
     
 
   
