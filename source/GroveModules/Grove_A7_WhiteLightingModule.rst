@@ -132,8 +132,8 @@ Arduino编程照明模块的(C/C++)API
 
 我们希望使用照明模块和一个按钮结合起来实现“用按钮调光的台灯”，如下视频所示
 
-.. image:: ../_static/video/GroveModules/Grove_A7_WhiteLightingModule/Circular11xRGBModule_1.MP4
-    :align: center 
+.. .. image:: ../_static/video/GroveModules/Grove_A7_WhiteLightingModule/Circular11xRGBModule_1.MP4
+..     :align: center 
 
 为了达成这一步，我们需要做一些准备工作。
 如果你已经安装 `Arduino IDE 1.8x`_，现在首先需要安装 `BlueBox4(蓝盒4)`_ 的BSP(板级支持包)。
