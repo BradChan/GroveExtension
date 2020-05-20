@@ -23,6 +23,10 @@
     GroveModules/Grove_A7_WhiteLightingModule
     GroveModules/Grove_A8_ChainableRGBModule
     GroveModules/Grove_A9_Circular11xRGBModule
+    GroveModules/Grove_A10_1WAudioAmplifierModule
+    GroveModules/Grove_A11_3WAudioAmplifierModule
+    GroveModules/Grove_A12_RelayModule
+    GroveModules/Grove_A13_NMosSiwtchModule
     
 
   
