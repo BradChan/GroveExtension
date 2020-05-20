@@ -33,7 +33,6 @@
     GroveModules/Grove_A17_I2C_16xServoModule
 
     GroveModules/Grove_D1_LEDx10BarModule
-    GroveModules/Grove_D3_OLED128x64DotsModule
   
 
 
