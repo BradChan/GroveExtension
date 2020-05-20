@@ -6,7 +6,7 @@
 
 工作进度、电池电量等信息指示无需具体数值，比例信息或许更符合人类的习惯。看到下图时，你很容易联想到“进度显示”
 
-.. image:: ../_static/images/GroveModules/Grove_D1_LEDx10BarModule/IMG_2544.jpeg
+.. image:: ../_static/images/GroveModules/Grove_D1_LEDx10BarModule/IMG_2543.jif
     :align: center 
 
 这是一种由10颗单色的、亮度可调节的LED组成的条状显示器模块。用于各类进度状态、电量多少、距离远近等信息显示。
