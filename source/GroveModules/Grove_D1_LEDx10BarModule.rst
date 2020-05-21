@@ -6,7 +6,8 @@
 
 工作进度、电池电量等信息指示无需具体数值，比例信息或许更符合人类的习惯。看到下图时，你很容易联想到“进度显示”
 
-
+.. image:: ../_static/images/GroveModules/Grove_D1_LEDx10BarModule/IMG_2543.gif
+    :align: center 
 
 
 
