@@ -4,7 +4,7 @@
 条状LED显示器模块
 ================================
 
-.. image:: ../_static/images/GroveModules/Grove_D1_LEDx10BarModule/ball1.gif
+.. image:: ../_static/images/GroveModules/Grove_D1_LEDx10BarModule/IMG_2544.jpeg
     :align: center 
 
 这是一种由10颗单色的、亮度可调节的LED组成的条状显示器模块。用于各类进度状态、电量多少、距离远近等信息显示。
