@@ -35,8 +35,8 @@
     GroveModules/Grove_D1_LEDx10BarModule
     GroveModules/Grove_D2_LED6x7MatrixModule
     GroveModules/Grove_D3_OLED128x64DotsModule
-
     GroveModules/Grove_D5_4Digit7SegmentModule
+    GroveModules/Grove_D6_Circular24xLEDModule
     
 
   
