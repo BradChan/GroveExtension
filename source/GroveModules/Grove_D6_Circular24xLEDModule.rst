@@ -340,8 +340,7 @@ Arduino编程环形LED阵列模块的(C/C++)API
 示例程序的执行效果，如下图所示。首先，用一个数组将两个环形LED阵列模块预制一幅相同的亮度图案；
 然后在循环体内，右转一个模块的图案，另一个模块的图案左转，延迟50ms。
 
-.. image:: ../_static/images/GroveModules/Grove_D6_Circular24xLEDModule/IMG_2527.gif
-    :align: center 
+
 
 
 在Scratch环境使用环形LED阵列模块
