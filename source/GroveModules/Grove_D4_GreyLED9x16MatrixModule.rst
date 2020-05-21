@@ -6,7 +6,25 @@ LED灰度阵列显示器模块
 
 我们现在介绍一种256级灰度的9x16点阵LED阵列，不仅能滚动显示文本字符和数字，还支持画图，显示256级灰度的图片！
 
+*1. 波浪翻滚*
 
+.. image:: ../_static/images/GroveModules/Grove_D4_GreyLED9x16MatrixModule/IMG_2551.gif
+    :align: center 
+
+*2. 模拟地上鞭炮爆炸效果*
+
+.. image:: ../_static/images/GroveModules/Grove_D4_GreyLED9x16MatrixModule/IMG_2552.gif
+    :align: center 
+
+*3. 绘制方形图案*
+
+.. image:: ../_static/images/GroveModules/Grove_D4_GreyLED9x16MatrixModule/IMG_2553.gif
+    :align: center 
+
+*4. 滚动显示字符和数字*
+
+.. image:: ../_static/images/GroveModules/Grove_D4_GreyLED9x16MatrixModule/IMG_2554.gif
+    :align: center 
 
 so funny! 
 

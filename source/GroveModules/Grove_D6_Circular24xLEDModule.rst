@@ -6,6 +6,8 @@
 
 我们先来看看使用环形LED阵列模块实现的有趣效果
 
+.. image:: ../_static/images/GroveModules/Grove_D6_Circular24xLEDModule/CircularLEDModule_0.gif
+    :align: center 
 
 如何实现这个效果的程序源码，后面的章节中会给出，并分析实现的思路。
 实现这个有趣效果的主角是，环形LED阵列模块(x24颗)。这个模块由24颗亮度可单独调节的LED及其控制接口电路单元组成，且24颗
@@ -340,7 +342,8 @@ Arduino编程环形LED阵列模块的(C/C++)API
 示例程序的执行效果，如下图所示。首先，用一个数组将两个环形LED阵列模块预制一幅相同的亮度图案；
 然后在循环体内，右转一个模块的图案，另一个模块的图案左转，延迟50ms。
 
-
+.. image:: ../_static/images/GroveModules/Grove_D6_Circular24xLEDModule/IMG_2527.gif
+    :align: center 
 
 
 在Scratch环境使用环形LED阵列模块

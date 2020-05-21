@@ -38,7 +38,7 @@
     GroveModules/Grove_D4_GreyLED9x16MatrixModule
     GroveModules/Grove_D5_4Digit7SegmentModule
     GroveModules/Grove_D6_Circular24xLEDModule
-    
+
     GroveModules/Grove_S1_AngleSensor_LEDModule
     GroveModules/Grove_S2_TouchSensor_1chModule
     GroveModules/Grove_S3_MagneticApproachModule
@@ -63,13 +63,6 @@
     GroveModules/Grove_S22_DigitalColorSensorModule
     GroveModules/Grove_S23_12ChTouchSensorModule
     GroveModules/Grove_S24_12Bitsx8ChADCModule
-    
-
-  
-
-
-
-   
 
 
 
